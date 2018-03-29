@@ -1,0 +1,94 @@
+body {
+	height: 100vh;
+	background-image: url(../bg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-color: #606996;
+	background-blend-mode: screen;
+	color: #f2f2f2;
+	font-family: 'Encode Sans', sans-serif;
+
+}
+
+.input {
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	transform: translate(-50%);
+}
+
+input {
+	border-radius: 100px;
+	width: 100%;
+	height: 40px;
+	text-indent: 10px;
+	outline: none;
+	border: none;
+}
+input:focus {
+	outline: none;
+}
+
+button {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 80%;
+	border-radius: 100px;
+	background: white;
+	border: none;
+	margin-top: 30px;
+	box-shadow: 0 1px 10px 3px #f2f2f2;
+}
+
+button:focus {
+	outline:none;
+	background-color: #f2f2f2;
+}
+
+.grad-temp {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%);
+}
+
+.grad-temp p {
+	position: absolute;
+	top: 110%;
+	left: 50%;
+	font-size: 70px;
+	transform: translate(-50%);
+}
+
+.grad-temp h1 {
+	font-size: 150px;
+	font-weight: 100;
+}
+
+.minimal {
+	position: absolute;
+	left: 5%;
+	top: 90%;
+}
+
+.minimal h2, h1, .maximal h1, h2 {
+	display: inline;
+}
+
+.minimal h2, .maximal h2 {
+	margin-right: 20px;
+}
+
+.maximal {
+	position: absolute;
+	right: 5%;
+	top: 90%;
+}
+
+.description {
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%);
+}
